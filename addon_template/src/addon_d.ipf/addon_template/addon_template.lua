@@ -165,7 +165,7 @@ end
 
 function {$ADDON_NAME}_MESSAGES()
 	-- template:
-	-- {$ADDON_NAME}_MESSAGES_INIT("{MESSAGE_MSG}", {MESSAGE_TARGET});
+	-- {$ADDON_NAME}_MESSAGES_INIT("{MESSAGE_MSG}", "{MESSAGE_TARGET}");
 	-- MSG list: ui.ipf/uixml/addonmessage.xml
 	-- common MSG: FPS_UPDATE,GAME_START_3SEC
 end
