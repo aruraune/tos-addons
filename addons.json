@@ -126,7 +126,7 @@
         "name" : "/unfreeze",
         "file" : "unfreeze",
         "extension" : "ipf",
-        "fileVersion" : "v1.0.2",
+        "fileVersion" : "v1.0.3",
         "releaseTag" : "unfreeze",
         "unicode" : "🐇",
         "description" : "Countermeasure to hook64 /freeze. Uninstall after IMC fix announcement. This is just a quickfix, remove it after the exploit is fixed.",
