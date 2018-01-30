@@ -113,7 +113,7 @@
         "file" : "pokelua",
         "extension" : "ipf",
         "fileVersion" : "v1.0.1",
-        "releaseTag" : "pokelua",
+        "releaseTag" : "pokelua-v1.0.1",
         "unicode" : "🐇",
         "description" : "Prevents pokemon event shop window from closing automatically.",
         "tags" : [
