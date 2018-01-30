@@ -172,24 +172,24 @@ end
 
 -- functions: loader
 function {$ADDON_NAME}_ON_INIT(addon, frame)
-	g.addon = addon;
-	g.frame = frame;
-
-	{$ADDON_NAME}_SETTINGS_LOAD();
-
-	{$ADDON_NAME}_COMMANDS();
-
-	{$ADDON_NAME}_HOOKS();
-	{$ADDON_NAME}_MESSAGES();
-
 	if g.loaded == false then
 		g.loaded = true;
+
+		g.addon = addon;
+		g.frame = frame;
+
+		{$ADDON_NAME}_SETTINGS_LOAD();
+
+		{$ADDON_NAME}_COMMANDS();
+
+		{$ADDON_NAME}_HOOKS();
+		{$ADDON_NAME}_MESSAGES();
 	end
 
-	{$ADDON_NAME}_MAIN();
+	{$ADDON_NAME}_ON_MAP_CHANGE(addon, frame);
 end
 
-function {$ADDON_NAME}_MAIN()
+function {$ADDON_NAME}_ON_MAP_CHANGE(addon, frame)
 end
 
 -- functions: hook targets
