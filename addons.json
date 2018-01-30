@@ -127,7 +127,7 @@
         "name" : "/unfreeze",
         "file" : "unfreeze",
         "extension" : "ipf",
-        "fileVersion" : "v1.0.5",
+        "fileVersion" : "v1.0.6",
         "releaseTag" : "unfreeze",
         "unicode" : "🐇",
         "description" : "Not needed anymore, you can uninstall this addon for now.",
